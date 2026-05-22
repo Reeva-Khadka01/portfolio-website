@@ -1,10 +1,10 @@
-body {
+/* body {
     background-color: #121212;
     color: #e0e0e0;
     font-family: Arial, sans-serif;
-}
+} */
 
-nav {
+/* nav {
     background: #e3f1a0;
     padding: 15px 50px;
     display: flex;
@@ -57,7 +57,7 @@ ul li a:hover {
 
 h1, h2 {
     color: white;
-}
+} */
 
 .blog-grid {
     display: grid;
@@ -73,6 +73,11 @@ h1, h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(185, 204, 203, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+}
+.blog-card img{
+    width:100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 .blog-card:hover {
