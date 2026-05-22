@@ -12,7 +12,6 @@
 #animatedText{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fce055;
-    text-align: center;
     background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 183, 252, 1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
